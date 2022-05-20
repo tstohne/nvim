@@ -18,7 +18,8 @@ require "paq" {
     'nvim-telescope/telescope-media-files.nvim'; -- See images with Telescope
     'majutsushi/tagbar';                -- code structure    
     'Yggdroot/indentLine';              -- see indentation
-    'tpope/vim-fugitive';               -- git integration
+    'tpope/vim-fugitive';               -- Git
+    'sar/neogit.nvim';                  -- integration
     'junegunn/gv.vim';                  -- commit history
     'windwp/nvim-autopairs';            -- auto close brackets, etc.
     'lewis6991/impatient.nvim';         -- speedup loading modules

@@ -38,3 +38,9 @@ opt.splitbelow = true            -- bool: Place new window below the current one
 --Save undo history
 opt.undofile = true
 
+opt.wildmenu = true
+opt.wildmode = 'longest,full'
+opt.wildchar = ('\t'):byte()
+opt.wildcharm = 26
+opt.wildignore = '*.o,*~,*.pyc'
+

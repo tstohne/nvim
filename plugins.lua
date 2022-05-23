@@ -16,15 +16,22 @@ require "paq" {
     'nvim-telescope/telescope.nvim';    -- fuzzy finder over lists
     {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' };  -- Telescope fzf native
     'nvim-telescope/telescope-media-files.nvim'; -- See images with Telescope
+    'stevearc/dressing.nvim';
+    'nvim-telescope/telescope-ui-select.nvim';
     'majutsushi/tagbar';                -- code structure    
     'Yggdroot/indentLine';              -- see indentation
     'tpope/vim-fugitive';               -- Git
     'sar/neogit.nvim';                  -- integration
+    'sindrets/diffview.nvim';           -- View the diffs
+    'tanvirtin/vgit.nvim';
+    'rhysd/git-messenger.vim';
     'junegunn/gv.vim';                  -- commit history
     'windwp/nvim-autopairs';            -- auto close brackets, etc.
     'lewis6991/impatient.nvim';         -- speedup loading modules
     'nvim-treesitter/nvim-treesitter';
     'nvim-treesitter/nvim-treesitter-textobjects';
+    'mfussenegger/nvim-ts-hint-textobject';
+    'RRethy/nvim-treesitter-textsubjects';
     'qInstakdheepak/tabline.nvim';
     'romgrk/barbar.nvim';               -- Tabline
     'ggandor/lightspeed.nvim';          -- Motion plugin

@@ -2,14 +2,22 @@
 local opt = vim.opt
 
 -- [[ Context ]]
-opt.colorcolumn = '80'           -- str:  Show col for max line length
-opt.number = true                -- bool: Show line numbers
+opt.colorcolumn =    '80'           -- str:  Show col for max line length
+opt.number =         true           -- bool: Show line numbers
 opt.relativenumber = true        -- bool: Show relative line numbers
-opt.scrolloff = 4                -- int:  Min num lines of context
-opt.signcolumn = "yes"           -- str:  Show the sign column
-opt.timeout = false
-opt.timeoutlen = 500
-opt.mouse = 'a'
+opt.scrolloff =      4              -- int:  Min num lines of context
+opt.signcolumn =     "yes"          -- str:  Show the sign column
+opt.timeout =        false
+opt.timeoutlen =     500
+opt.updatetime =     300
+opt.mouse =          'a'
+opt.cursorline =     true
+opt.showtabline =    2
+opt.clipboard =      "unnamedplus"
+opt.backup =         false
+opt.cmdheight =      2
+opt.conceallevel =   0
+opt.pumheight    =   10
 
 -- [[ Filetypes ]]
 opt.encoding = 'utf8'            -- str:  String encoding to use

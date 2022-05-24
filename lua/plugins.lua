@@ -34,7 +34,6 @@ require "paq" {
     'RRethy/nvim-treesitter-textsubjects';
     'qInstakdheepak/tabline.nvim';
     'romgrk/barbar.nvim';               -- Tabline
-    'ggandor/lightspeed.nvim';          -- Motion plugin
     'williamboman/nvim-lsp-installer';  -- manage LSP servers
     'neovim/nvim-lspconfig';            -- manage LSP servers
     'ms-jpq/coq_nvim';                  -- Completione engine
@@ -46,7 +45,7 @@ require "paq" {
     'p00f/nvim-ts-rainbow';
     'nvim-lua/popup.nvim';
     'nvim-telescope/telescope-media-files.nvim'; -- See images with Telescope
-    'lewis6991/gitsigns.nvim'; -- git related info in signs columns and popups
-    'mhinz/vim-startify'                -- Fancy startup screen
+    'lewis6991/gitsigns.nvim';          -- git related info in signs columns and popups
+    'mhinz/vim-startify';               -- Fancy startup screen
 }
 

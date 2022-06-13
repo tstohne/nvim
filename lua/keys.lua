@@ -81,6 +81,3 @@ end
 map("n", "<F11>", ":spell!<cr>", { silent = true })
 -- map("i", "<F11>, "<C-O>:spell! ','<cr>", { silent = true })
 
-
-
-

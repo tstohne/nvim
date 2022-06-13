@@ -1,11 +1,12 @@
 
 require "paq" {
-    "savq/paq-nvim";                    -- Let Paq manage itself
+    'savq/paq-nvim';                    -- Let Paq manage itself
 
-    "neovim/nvim-lspconfig";            -- Mind the semi-colons
-    "hrsh7th/nvim-cmp";
+    'neovim/nvim-lspconfig';            -- Mind the semi-colons
+    'williamboman/nvim-lsp-installer';  -- manage LSP servers
+    'hrsh7th/nvim-cmp';
 
-    {"lervag/vimtex", opt=true};        -- Use braces when passing options
+    {'lervag/vimtex', opt=true};        -- Use braces when passing options
 
     'kyazdani42/nvim-web-devicons';     -- filesystem icons
     'kyazdani42/nvim-tree.lua';         -- filesystem navigation
@@ -34,8 +35,6 @@ require "paq" {
     'RRethy/nvim-treesitter-textsubjects';
     'qInstakdheepak/tabline.nvim';
     'romgrk/barbar.nvim';               -- Tabline
-    'williamboman/nvim-lsp-installer';  -- manage LSP servers
-    'neovim/nvim-lspconfig';            -- manage LSP servers
     'ms-jpq/coq_nvim';                  -- Completione engine
     'ms-jpq/coq.artifacts';
     'ms-jpq/coq.thirdparty';

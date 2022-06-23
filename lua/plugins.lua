@@ -21,7 +21,7 @@ require "paq" {
     'nvim-telescope/telescope-ui-select.nvim';
     'majutsushi/tagbar';                -- code structure    
     'Yggdroot/indentLine';              -- see indentation
-    'tpope/vim-fugitive';               -- Git
+   
     'sar/neogit.nvim';                  -- integration
     'sindrets/diffview.nvim';           -- View the diffs
     'tanvirtin/vgit.nvim';
@@ -36,10 +36,10 @@ require "paq" {
     'qInstakdheepak/tabline.nvim';
     'romgrk/barbar.nvim';               -- Tabline
     'ms-jpq/coq_nvim';                  -- Completione engine
-    'ms-jpq/coq.artifacts';
-    'ms-jpq/coq.thirdparty';
-    'dcampos/nvim-snippy';              -- Snippets
-    'honza/vim-snippets';               -- ditto
+  
+   
+ 
+
     'folke/lsp-colors.nvim';
     'p00f/nvim-ts-rainbow';
     'nvim-lua/popup.nvim';

@@ -53,18 +53,6 @@ require'tabline'.setup {
   }
 }
 
-require('snippy').setup({
-    mappings = {
-        is = {
-            ['<Tab>'] = 'expand_or_advance',
-            ['<S-Tab>'] = 'previous',
-        },
-        nx = {
-            ['<leader>x'] = 'cut_text',
-        },
-    },
-})
-
 require("nvim-lsp-installer").setup({
     automatic_installation = true, -- automatically detect which servers to install (based on which servers are set up via lspconfig)
     ui = {
@@ -126,24 +114,10 @@ require('gitsigns').setup {
   },
 }
 
-require('snippy').setup({
-    mappings = {
-        is = {
-            ['<Tab>'] = 'expand_or_advance',
-            ['<S-Tab>'] = 'previous',
-        },
-        nx = {
-            ['<leader>x'] = 'cut_text',
-        },
-    },
-})
-
 local neogit = require('neogit')
 neogit.setup {}
 
 require('vgit').setup()
-
-
 
 require('dressing').setup({
   input = {

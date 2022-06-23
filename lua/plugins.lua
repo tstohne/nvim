@@ -43,7 +43,7 @@ require "paq" {
     'folke/lsp-colors.nvim';
     'p00f/nvim-ts-rainbow';
     'nvim-lua/popup.nvim';
-    'nvim-telescope/telescope-media-files.nvim'; -- See images with Telescope
+    
     'lewis6991/gitsigns.nvim';          -- git related info in signs columns and popups
     'mhinz/vim-startify';               -- Fancy startup screen
 }

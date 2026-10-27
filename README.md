@@ -14,7 +14,7 @@ performance = {
 
 Removal of the defaults LazyVim colorschemes: tokyonight and catppuccin.
 
-Removal of LSP/tooling stack and optimizationof treesitter:
+Removal of LSP/tooling stack and optimization of treesitter:
 
 ~/.config/nvim/lua/plugins/slim.lua
 return {
